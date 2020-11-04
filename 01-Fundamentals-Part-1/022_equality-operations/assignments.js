@@ -17,41 +17,41 @@
 
 // 8.	Reflect on why we should use the === operator and type conversion in this situation 
 
-//ANSWER: ---------------------------------------------------
+// ANSWER: ---------------------------------------------------
 //1.)
-// const numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
-// console.log(numNeighbours)
-// //2.)
-// if (numNeighbours == 1) {
-//   console.log('Only 1 border!');
-//   //3.)
-// } else if (numNeighbours > 1) {
-//   console.log('More than 1 border.');
-//   //4.)
-// } else {
-//   console.log('No borders.');
-//}
-//5.) ---- see below:
+const numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
+console.log(numNeighbours)
+//2.)
+if (numNeighbours === 1) {
+  console.log('Only 1 border!');
+  //3.)
+} else if (numNeighbours > 1) {
+  console.log('More than 1 border.');
+  //4.)
+} else {
+  console.log('No borders.');
+}
+// 5.) ---- see below:
 
-// 34
-// More than 1 border.
+34
+More than 1 border.
 
-// 1
-// Only 1 border!
+1
+Only 1 border!
 
-// 0ss
-// No borders.
+0ss
+No borders.
 
 //6.)
-// const numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
-// console.log(numNeighbours)
-// if (numNeighbours === 1) {
-//   console.log('Only 1 border!');
-// } else if (numNeighbours > 1) {
-//   console.log('More than 1 border.');
-// } else {
-//   console.log('No borders.');
-// }
+const numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
+console.log(numNeighbours)
+if (numNeighbours === 1) {
+  console.log('Only 1 border!');
+} else if (numNeighbours > 1) {
+  console.log('More than 1 border.');
+} else {
+  console.log('No borders.');
+}
 
 //7.) OK I DON"T KNOW HOW TO DO THIS !!!!!!!!!
 const numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
@@ -66,4 +66,4 @@ if (numNeighbours === 1) {
 numNeighbours = 5;
 
 // 8.	
-// Answer: Because === has less bug's then ==
+Answer: Because === has less bug's then ==
